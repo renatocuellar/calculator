@@ -1,0 +1,13 @@
+:root {
+  --color-light: #f6f2f2;
+  --color-dark: rgb(20, 20, 20);
+  --main-bg-color: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --fontBase: "poppins", sans-serif;
+  --headline1: bold 28px/30px var(--fontBase);
+  --body1: normal 18px/25px var(--fontBase);
+}

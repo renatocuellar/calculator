@@ -1,8 +1,9 @@
 .calculator__display {
   display: grid;
+  grid-template-rows: 80px 40px;
   grid-column: 1 / -1;
-  padding: 10px;
-  margin: 10px 10px 10px;
+  padding-right: 15px;
+  margin: 5px 5px 10px;
   background: rgba(0, 0, 0, 0.55);
   box-shadow: 5px 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(15.5px);

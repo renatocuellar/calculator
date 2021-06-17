@@ -8,6 +8,6 @@
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
   --fontBase: "poppins", sans-serif;
-  --headline1: bold 28px/30px var(--fontBase);
+  --headline1: bold 25px/30px var(--fontBase);
   --body1: normal 18px/25px var(--fontBase);
 }

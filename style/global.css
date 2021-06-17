@@ -4,10 +4,6 @@
 @import url("./display.css");
 @import url("./buttons.css");
 
-* {
-  color: var(--color-dark);
-}
-
 body {
   margin: 0;
   background: var(--main-bg-color);
@@ -21,6 +17,7 @@ body {
 }
 .calculator {
   display: grid;
+  grid-gap: 6px;
   grid-template-rows: 160px 405px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 12px 8px 32px 05px rgba(31, 38, 135, 0.33);

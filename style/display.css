@@ -4,7 +4,7 @@
   padding: 10px;
   margin: 10px 10px 10px;
   background: rgba(0, 0, 0, 0.55);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 5px 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 10px;
@@ -17,4 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.calculator__display-last-value {
+  font-size: 2.8rem;
+  line-height: 0rem;
+}
+
+.calculator__display-new-value {
+  font-size: 1.2rem;
+  line-height: 0rem;
 }

@@ -29,6 +29,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   font: var(--headline1);
   color: var(--color-light);
+  cursor: pointer;
 }
 
 .calculator__button-operator:active {
@@ -48,6 +49,7 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   font: var(--headline1);
   color: var(--color-dark);
+  cursor: pointer;
 }
 
 .calculator__button-number:active {

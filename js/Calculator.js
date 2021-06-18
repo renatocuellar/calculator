@@ -1,23 +1,17 @@
-class calculatorAddition {
-    addition(num1, num2){
-        return num1 + num2
+//Here we have the calculator
+
+class Calculator {
+    addition(num1, num2) {
+        return num1 + num2;
+    }
+    subtraction(num1, num2) {
+        return num1 - num2;
+    }
+    multiplication(num1, num2) {
+        return num1 * num2;
+    }
+    division(num1, num2) {
+        return num1 / num2;
     }
 };
 
-class calculatorSubtraction {
-    subtraction(num1, num2){
-        return num1 - num2
-    }
-};
-
-class calculatorMultiplication {
-    multiplication(num1, num2){
-        return num1 * num2
-    }
-};
-
-class calculatorDivision {
-    division(num1, num2){
-        return num1 / num2
-    }
-};

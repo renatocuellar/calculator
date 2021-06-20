@@ -10,7 +10,7 @@
   grid-gap: 5px;
 }
 
-.calculator__button button:nth-child(3) {
+.calculator__button button:nth-child(1) {
   grid-column-end: span 2;
   grid-row-end: 3 / 4;
 }
